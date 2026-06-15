@@ -1,0 +1,13 @@
+"""Run {{ name }}"""
+
+import os
+import sys
+
+
+def {{ name}}() -> int:
+    print("Hello {{ name }}")
+    return os.EX_OK
+
+
+if __name__ == "__main__":
+    sys.exit({{ name}}())

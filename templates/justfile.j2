@@ -1,0 +1,8 @@
+push:
+    mkdir -p ~/.claude/skills/{{ name }}
+    cp src/SKILL.md ~/.claude/skills/{{ name }}/
+
+pull:
+    test -f ~/.claude/skills/{{ name }}/SKILL.md && cp ~/.claude/skills/{{ name }}/SKILL.md src/
+
+
