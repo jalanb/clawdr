@@ -1,0 +1,8 @@
+
+push: 
+    cp *.md ~/.claude/commands
+    cp *.py ~/.claude/commands
+    cp *.sh ~/.claude/commands
+
+pull:
+    cp ~/.claude/commands/* .
